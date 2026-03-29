@@ -31,6 +31,12 @@ or
 python scripts/run_stage2_sweep.py
 ```
 
+For a single-command resumable search loop, run:
+
+```bash
+python scripts/run_autonomous_loop.py
+```
+
 The Oxford-IIIT Pet dataset will auto-download on first run if it is not already present under `./data/oxford-iiit-pet`.
 
 See `COLAB_SETUP.md` for the full workflow and what outputs to send back for the next optimization round.

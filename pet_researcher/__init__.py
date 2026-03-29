@@ -1,6 +1,7 @@
 from .config import ExperimentConfig, PathsConfig
-from .engine import ExperimentResult, final_test_report, run_experiment
+from .engine import ExperimentResult, final_test_report, load_experiment_result, run_experiment
 from .hierarchy import HierarchicalExperimentResult, run_hierarchical_experiment
+from .autonomous import run_autonomous_loop
 
 __all__ = [
     "ExperimentConfig",
@@ -8,6 +9,8 @@ __all__ = [
     "HierarchicalExperimentResult",
     "PathsConfig",
     "final_test_report",
+    "load_experiment_result",
+    "run_autonomous_loop",
     "run_experiment",
     "run_hierarchical_experiment",
 ]

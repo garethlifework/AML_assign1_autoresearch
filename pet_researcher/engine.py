@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import copy
+import json
 import time
 from dataclasses import dataclass
+from pathlib import Path
 
 import numpy as np
 import torch
@@ -25,6 +27,22 @@ class ExperimentResult:
     test_metrics: dict | None
     label_names: list[str]
     run_dir: str
+
+
+def load_experiment_result(config: ExperimentConfig) -> ExperimentResult | None:
+    summary_path = config.summary_path()
+    if not summary_path.exists():
+        return None
+    payload = json.loads(summary_path.read_text())
+    saved_config = ExperimentConfig.from_dict(payload["config"])
+    return ExperimentResult(
+        config=saved_config,
+        checkpoint_path=str(saved_config.checkpoint_path()),
+        val_metrics=payload["val_metrics"],
+        test_metrics=payload.get("test_metrics"),
+        label_names=payload.get("label_names", []),
+        run_dir=str(saved_config.run_dir()),
+    )
 
 
 class EarlyStopper:
@@ -299,6 +317,11 @@ def run_experiment(config: ExperimentConfig) -> ExperimentResult:
     set_seed(config.seed)
     run_dir = config.run_dir()
     run_dir.mkdir(parents=True, exist_ok=True)
+    if config.resume_if_available:
+        cached_result = load_experiment_result(config)
+        if cached_result is not None and (not config.evaluate_test or cached_result.test_metrics is not None):
+            return cached_result
+
     device = get_device()
     datasets = build_datasets(config)
     loaders = build_loaders(config, datasets)

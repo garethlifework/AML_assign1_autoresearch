@@ -67,6 +67,12 @@ Focused ResNet18 sweep:
 !python scripts/run_stage2_sweep.py
 ```
 
+One-command autonomous loop:
+
+```bash
+!python scripts/run_autonomous_loop.py --max-experiments 8 --target-val-acc 0.95
+```
+
 Notebook-driven workflow:
 
 - Open `auto_researcher_workbench.ipynb`
@@ -79,6 +85,8 @@ I cannot directly log into your Colab account. The easiest collaboration loop is
 - run the script or notebook in Colab
 - send me the console output or the resulting files under `runs/`
 - especially send:
+  - `runs/autonomous_state.json`
+  - `runs/leaderboard.json`
   - `runs/<experiment>/metrics.json`
   - `runs/<experiment>/val_predictions.csv`
   - `runs/<experiment>/val_confusion.png`
