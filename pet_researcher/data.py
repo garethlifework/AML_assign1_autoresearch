@@ -10,7 +10,7 @@ import torch
 from PIL import Image
 from sklearn.model_selection import StratifiedShuffleSplit
 from torch.utils.data import DataLoader, Dataset, Subset
-from torchvision import transforms
+from torchvision import datasets, transforms
 
 from .config import ExperimentConfig
 from .utils import ensure_dir
@@ -181,6 +181,29 @@ def load_metadata(data_dir: Path) -> DatasetMetadata:
     )
 
 
+def ensure_dataset_available(data_dir: Path) -> None:
+    trainval_marker = data_dir / "annotations" / "trainval.txt"
+    test_marker = data_dir / "annotations" / "test.txt"
+    images_dir = data_dir / "images"
+    if trainval_marker.exists() and test_marker.exists() and images_dir.exists():
+        return
+
+    root_dir = data_dir.parent
+    ensure_dir(root_dir)
+    datasets.OxfordIIITPet(
+        root=str(root_dir),
+        split="trainval",
+        target_types="category",
+        download=True,
+    )
+    datasets.OxfordIIITPet(
+        root=str(root_dir),
+        split="test",
+        target_types="category",
+        download=True,
+    )
+
+
 def load_split_samples(
     data_dir: Path,
     split: str,
@@ -253,6 +276,7 @@ def build_transforms(config: ExperimentConfig, training: bool) -> transforms.Com
 
 def build_datasets(config: ExperimentConfig) -> dict[str, object]:
     data_dir = config.paths.data_path()
+    ensure_dataset_available(data_dir)
     metadata = load_metadata(data_dir)
     trainval_samples = load_split_samples(
         data_dir=data_dir,

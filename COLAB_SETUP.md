@@ -12,6 +12,8 @@ Choose one:
 
 GitHub is the cleanest option if you are going to iterate repeatedly.
 
+The dataset does not need to be committed to the repo. The harness will download Oxford-IIIT Pet automatically on first run if `./data/oxford-iiit-pet` is missing.
+
 ## 2. Open Colab and enable GPU
 
 - `Runtime` -> `Change runtime type`
