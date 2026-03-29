@@ -37,6 +37,12 @@ For a single-command resumable search loop, run:
 python scripts/run_autonomous_loop.py
 ```
 
+If a first pass already created `runs/leaderboard.json`, rerun with a larger experiment budget to continue the search around the current best model instead of starting from scratch:
+
+```bash
+python scripts/run_autonomous_loop.py --max-experiments 12 --target-val-acc 0.95
+```
+
 The Oxford-IIIT Pet dataset will auto-download on first run if it is not already present under `./data/oxford-iiit-pet`.
 
 See `COLAB_SETUP.md` for the full workflow and what outputs to send back for the next optimization round.

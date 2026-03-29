@@ -65,6 +65,60 @@ def _trimap_candidates(best_raw: ExperimentConfig | None) -> list[ExperimentConf
     ]
 
 
+def _focused_candidates(best_existing: ExperimentConfig | None) -> list[ExperimentConfig]:
+    if best_existing is None:
+        return []
+
+    base_payload = best_existing.to_dict()
+    candidates = []
+    variants = [
+        {
+            "suffix": "img256_ep12_lr3e5",
+            "image_size": 256,
+            "finetune_epochs": 12,
+            "finetune_lr": 3e-5,
+            "train_batch_size": 16,
+            "eval_batch_size": 32,
+        },
+        {
+            "suffix": "img256_ep16_lr1e5",
+            "image_size": 256,
+            "finetune_epochs": 16,
+            "finetune_lr": 1e-5,
+            "train_batch_size": 16,
+            "eval_batch_size": 32,
+        },
+        {
+            "suffix": "img320_ep12_lr3e5",
+            "image_size": 320,
+            "finetune_epochs": 12,
+            "finetune_lr": 3e-5,
+            "train_batch_size": 8,
+            "eval_batch_size": 16,
+        },
+        {
+            "suffix": "img320_ep16_lr1e5",
+            "image_size": 320,
+            "finetune_epochs": 16,
+            "finetune_lr": 1e-5,
+            "train_batch_size": 8,
+            "eval_batch_size": 16,
+        },
+    ]
+
+    for variant in variants:
+        payload = {
+            **base_payload,
+            **variant,
+            "name": f"{best_existing.name}_{variant['suffix']}",
+            "resume_if_available": True,
+        }
+        payload.pop("suffix", None)
+        candidates.append(ExperimentConfig.from_dict(payload))
+
+    return candidates
+
+
 def _finalist_configs(results: list[dict], top_k: int) -> list[ExperimentConfig]:
     finalists = []
     for row in sorted(results, key=lambda item: item["val_acc"], reverse=True)[:top_k]:
@@ -128,6 +182,7 @@ def run_autonomous_loop(settings: AutonomousSettings | None = None) -> dict:
     if experiments:
         best_existing = _best_non_tta(experiments)
         queue.extend(_trimap_candidates(best_existing))
+        queue.extend(_focused_candidates(best_existing))
 
     for config in queue:
         if executed_count >= settings.max_experiments:
@@ -147,6 +202,18 @@ def run_autonomous_loop(settings: AutonomousSettings | None = None) -> dict:
     best_existing = _best_non_tta(experiments)
     if best_existing is not None:
         for candidate in _trimap_candidates(best_existing):
+            if executed_count >= settings.max_experiments:
+                break
+            if _already_done(candidate.name, experiments):
+                continue
+            result = run_experiment(candidate)
+            experiments.append(_result_row(result))
+            executed_count += 1
+            _write_leaderboard(settings.output_dir, experiments, settings)
+
+    best_existing = _best_non_tta(experiments)
+    if best_existing is not None:
+        for candidate in _focused_candidates(best_existing):
             if executed_count >= settings.max_experiments:
                 break
             if _already_done(candidate.name, experiments):

@@ -73,6 +73,12 @@ One-command autonomous loop:
 !python scripts/run_autonomous_loop.py --max-experiments 8 --target-val-acc 0.95
 ```
 
+To continue from an existing `runs/leaderboard.json` with a tighter second-stage search around the current winner, rerun with a larger budget:
+
+```bash
+!python scripts/run_autonomous_loop.py --max-experiments 12 --target-val-acc 0.95
+```
+
 Notebook-driven workflow:
 
 - Open `auto_researcher_workbench.ipynb`
