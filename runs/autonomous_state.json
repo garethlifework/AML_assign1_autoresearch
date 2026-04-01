@@ -1,0 +1,9 @@
+{
+  "best_model_name": "auto_r50_full_raw_trimap_tta",
+  "best_val_acc": 0.967391304347826,
+  "experiments_run": 8,
+  "final_report_path": "runs/final_test_report.json",
+  "leaderboard_path": "runs/leaderboard.json",
+  "status": "completed",
+  "updated_at": 1775051115.6239817
+}

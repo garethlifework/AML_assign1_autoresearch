@@ -1,0 +1,737 @@
+image_id,true_label,pred_label,true_index,pred_index,confidence
+american_bulldog_110,American Bulldog,American Bulldog,1,1,0.7917490601539612
+samoyed_134,Samoyed,Samoyed,29,29,0.9816676378250122
+Abyssinian_181,Abyssinian,Bengal,0,5,0.45180532336235046
+scottish_terrier_129,Scottish Terrier,Scottish Terrier,30,30,0.739539623260498
+havanese_180,Havanese,Havanese,16,16,0.787070631980896
+staffordshire_bull_terrier_198,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9209631085395813
+american_bulldog_164,American Bulldog,American Bulldog,1,1,0.3522135317325592
+pomeranian_184,Pomeranian,Pomeranian,24,24,0.907545268535614
+japanese_chin_111,Japanese Chin,Japanese Chin,17,17,0.9226268529891968
+newfoundland_177,Newfoundland,Newfoundland,22,22,0.9625579714775085
+pug_191,Pug,Pug,25,25,0.9441530108451843
+Sphynx_134,Sphynx,Sphynx,33,33,0.9858736991882324
+Maine_Coon_100,Maine Coon,Maine Coon,20,20,0.8264895677566528
+keeshond_182,Keeshond,Keeshond,18,18,0.9349240660667419
+samoyed_159,Samoyed,Samoyed,29,29,0.9833782911300659
+american_pit_bull_terrier_168,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.9691698551177979
+samoyed_169,Samoyed,Samoyed,29,29,0.9414678812026978
+staffordshire_bull_terrier_169,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.8863329887390137
+Abyssinian_101,Abyssinian,Abyssinian,0,0,0.7617020010948181
+staffordshire_bull_terrier_147,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9655985236167908
+Egyptian_Mau_100,Egyptian Mau,Egyptian Mau,11,11,0.8510278463363647
+Bengal_123,Bengal,Bengal,5,5,0.263462096452713
+British_Shorthair_16,British Shorthair,British Shorthair,9,9,0.9291459918022156
+Egyptian_Mau_181,Egyptian Mau,Egyptian Mau,11,11,0.9146628379821777
+boxer_186,Boxer,Boxer,8,8,0.9414733052253723
+Russian_Blue_172,Russian Blue,Russian Blue,27,27,0.9527218341827393
+Birman_180,Birman,Birman,6,6,0.3465265929698944
+Bengal_119,Bengal,Bengal,5,5,0.6684893369674683
+Birman_135,Birman,Birman,6,6,0.8137927055358887
+Birman_164,Birman,Birman,6,6,0.6713470816612244
+yorkshire_terrier_175,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9522940516471863
+shiba_inu_15,Shiba Inu,Shiba Inu,31,31,0.8955423831939697
+miniature_pinscher_165,Miniature Pinscher,Miniature Pinscher,21,21,0.9894579648971558
+shiba_inu_190,Shiba Inu,Shiba Inu,31,31,0.9777317643165588
+staffordshire_bull_terrier_158,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.8989419341087341
+staffordshire_bull_terrier_19,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.7002288699150085
+german_shorthaired_180,German Shorthaired,German Shorthaired,14,14,0.945054829120636
+newfoundland_117,Newfoundland,Newfoundland,22,22,0.9591566920280457
+Bengal_179,Bengal,Bengal,5,5,0.7594079971313477
+american_pit_bull_terrier_187,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.7160152792930603
+great_pyrenees_16,Great Pyrenees,Great Pyrenees,15,15,0.9342577457427979
+shiba_inu_131,Shiba Inu,Shiba Inu,31,31,0.9128164649009705
+saint_bernard_119,Saint Bernard,Saint Bernard,28,28,0.8446812629699707
+Bombay_154,Bombay,Bombay,7,7,0.9415088891983032
+leonberger_105,Leonberger,Leonberger,19,19,0.8829732537269592
+pomeranian_139,Pomeranian,Pomeranian,24,24,0.9385547637939453
+leonberger_171,Leonberger,Leonberger,19,19,0.9345391988754272
+japanese_chin_129,Japanese Chin,Japanese Chin,17,17,0.8209599256515503
+Birman_140,Birman,Birman,6,6,0.9709831476211548
+Maine_Coon_147,Maine Coon,Maine Coon,20,20,0.91956627368927
+chihuahua_127,Chihuahua,Chihuahua,10,10,0.9221199154853821
+japanese_chin_168,Japanese Chin,Japanese Chin,17,17,0.8626300692558289
+wheaten_terrier_163,Wheaten Terrier,Wheaten Terrier,35,35,0.9517276287078857
+great_pyrenees_133,Great Pyrenees,Great Pyrenees,15,15,0.9631236791610718
+keeshond_171,Keeshond,Keeshond,18,18,0.9533695578575134
+keeshond_183,Keeshond,Keeshond,18,18,0.9410759806632996
+Sphynx_185,Sphynx,Sphynx,33,33,0.8832738399505615
+saint_bernard_183,Saint Bernard,Saint Bernard,28,28,0.93012535572052
+leonberger_107,Leonberger,Leonberger,19,19,0.9144211411476135
+newfoundland_11,Newfoundland,Newfoundland,22,22,0.37848278880119324
+pomeranian_116,Pomeranian,Pomeranian,24,24,0.7491980791091919
+american_pit_bull_terrier_183,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.9744700789451599
+leonberger_132,Leonberger,Leonberger,19,19,0.9151219129562378
+Persian_133,Persian,Persian,23,23,0.9771057367324829
+american_bulldog_19,American Bulldog,American Bulldog,1,1,0.6829704642295837
+american_bulldog_200,American Bulldog,American Bulldog,1,1,0.6788628697395325
+Egyptian_Mau_104,Egyptian Mau,Egyptian Mau,11,11,0.9195030331611633
+Birman_163,Birman,Birman,6,6,0.8856601715087891
+samoyed_115,Samoyed,Samoyed,29,29,0.9641329050064087
+keeshond_16,Keeshond,Keeshond,18,18,0.9031682014465332
+boxer_103,Boxer,Boxer,8,8,0.9764488935470581
+Persian_201,Persian,Persian,23,23,0.7415376901626587
+Persian_107,Persian,Persian,23,23,0.6380068063735962
+newfoundland_170,Newfoundland,Newfoundland,22,22,0.9870488047599792
+Persian_176,Persian,Persian,23,23,0.9124041199684143
+Sphynx_184,Sphynx,Sphynx,33,33,0.9274840354919434
+Russian_Blue_124,Russian Blue,Russian Blue,27,27,0.9825307726860046
+staffordshire_bull_terrier_167,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9580632448196411
+basset_hound_125,Basset Hound,Basset Hound,3,3,0.9753760099411011
+Ragdoll_153,Ragdoll,Ragdoll,26,26,0.9763970375061035
+german_shorthaired_153,German Shorthaired,German Shorthaired,14,14,0.96242356300354
+pug_127,Pug,Pug,25,25,0.9377004504203796
+english_setter_133,English Setter,English Setter,13,13,0.6479935646057129
+British_Shorthair_204,British Shorthair,British Shorthair,9,9,0.9401174783706665
+Sphynx_176,Sphynx,Sphynx,33,33,0.9620083570480347
+Egyptian_Mau_126,Egyptian Mau,Egyptian Mau,11,11,0.9663427472114563
+german_shorthaired_173,German Shorthaired,German Shorthaired,14,14,0.9501976370811462
+Siamese_183,Siamese,Siamese,32,32,0.9444913864135742
+yorkshire_terrier_188,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9645065069198608
+Persian_19,Persian,Persian,23,23,0.8394210338592529
+great_pyrenees_144,Great Pyrenees,Great Pyrenees,15,15,0.9796374440193176
+american_pit_bull_terrier_148,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.8151968717575073
+Siamese_130,Siamese,Ragdoll,32,26,0.37997618317604065
+saint_bernard_133,Saint Bernard,Saint Bernard,28,28,0.9655516147613525
+wheaten_terrier_143,Wheaten Terrier,Wheaten Terrier,35,35,0.9844077229499817
+scottish_terrier_103,Scottish Terrier,Scottish Terrier,30,30,0.951333224773407
+american_bulldog_176,American Bulldog,American Bulldog,1,1,0.6742863059043884
+Ragdoll_181,Ragdoll,Ragdoll,26,26,0.5839617252349854
+Maine_Coon_107,Maine Coon,Maine Coon,20,20,0.9745117425918579
+pug_188,Pug,Pug,25,25,0.9194694757461548
+english_cocker_spaniel_130,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9048537015914917
+Russian_Blue_10,Russian Blue,Russian Blue,27,27,0.5848274230957031
+boxer_129,Boxer,Boxer,8,8,0.9586359262466431
+chihuahua_190,Chihuahua,Chihuahua,10,10,0.9101834297180176
+Ragdoll_187,Ragdoll,Ragdoll,26,26,0.9734043478965759
+american_pit_bull_terrier_188,American Pit Bull Terrier,Miniature Pinscher,2,21,0.5455718636512756
+Bengal_182,Bengal,Egyptian Mau,5,11,0.5327973961830139
+havanese_12,Havanese,Havanese,16,16,0.8381555676460266
+american_bulldog_13,American Bulldog,American Bulldog,1,1,0.5476683974266052
+miniature_pinscher_188,Miniature Pinscher,Miniature Pinscher,21,21,0.9578027725219727
+american_bulldog_131,American Bulldog,American Bulldog,1,1,0.7591710686683655
+basset_hound_117,Basset Hound,Basset Hound,3,3,0.9793956279754639
+pug_144,Pug,Pug,25,25,0.8660047650337219
+Persian_112,Persian,Persian,23,23,0.9619304537773132
+keeshond_149,Keeshond,Keeshond,18,18,0.9481374025344849
+japanese_chin_182,Japanese Chin,Japanese Chin,17,17,0.9421740174293518
+Persian_190,Persian,Persian,23,23,0.6428755521774292
+Sphynx_146,Sphynx,Sphynx,33,33,0.9537671208381653
+english_cocker_spaniel_159,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9481918811798096
+beagle_139,Beagle,Basset Hound,4,3,0.570326566696167
+wheaten_terrier_120,Wheaten Terrier,Wheaten Terrier,35,35,0.9490905404090881
+miniature_pinscher_186,Miniature Pinscher,Miniature Pinscher,21,21,0.8724259734153748
+staffordshire_bull_terrier_174,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.903063178062439
+beagle_165,Beagle,Beagle,4,4,0.9648606181144714
+havanese_137,Havanese,Havanese,16,16,0.9692041277885437
+shiba_inu_196,Shiba Inu,Shiba Inu,31,31,0.8944278359413147
+boxer_18,Boxer,American Bulldog,8,1,0.7420721054077148
+staffordshire_bull_terrier_113,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.8582828640937805
+great_pyrenees_166,Great Pyrenees,Great Pyrenees,15,15,0.9446555972099304
+Bengal_131,Bengal,Egyptian Mau,5,11,0.8060988187789917
+english_cocker_spaniel_157,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9612306356430054
+Bombay_193,Bombay,Bombay,7,7,0.9395564198493958
+wheaten_terrier_117,Wheaten Terrier,Wheaten Terrier,35,35,0.9278464913368225
+miniature_pinscher_17,Miniature Pinscher,Miniature Pinscher,21,21,0.8636725544929504
+japanese_chin_135,Japanese Chin,Japanese Chin,17,17,0.7396793961524963
+english_setter_189,English Setter,English Setter,13,13,0.9371306896209717
+Ragdoll_176,Ragdoll,Birman,26,6,0.8947901725769043
+pug_139,Pug,Pug,25,25,0.9830690622329712
+British_Shorthair_15,British Shorthair,British Shorthair,9,9,0.9785213470458984
+wheaten_terrier_187,Wheaten Terrier,Wheaten Terrier,35,35,0.8543416261672974
+english_setter_169,English Setter,English Setter,13,13,0.936804473400116
+great_pyrenees_113,Great Pyrenees,Great Pyrenees,15,15,0.932711660861969
+pomeranian_154,Pomeranian,Pomeranian,24,24,0.8652773499488831
+Russian_Blue_157,Russian Blue,Russian Blue,27,27,0.7291883826255798
+american_bulldog_12,American Bulldog,American Bulldog,1,1,0.9866536259651184
+samoyed_167,Samoyed,Samoyed,29,29,0.9704180359840393
+Bombay_175,Bombay,Bombay,7,7,0.6801497340202332
+beagle_105,Beagle,Beagle,4,4,0.8350546360015869
+leonberger_138,Leonberger,Leonberger,19,19,0.8834356069564819
+german_shorthaired_186,German Shorthaired,German Shorthaired,14,14,0.9193463325500488
+keeshond_185,Keeshond,Keeshond,18,18,0.915594756603241
+Sphynx_186,Sphynx,Sphynx,33,33,0.8517130613327026
+beagle_181,Beagle,Basset Hound,4,3,0.4223141670227051
+keeshond_127,Keeshond,Keeshond,18,18,0.9555213451385498
+shiba_inu_122,Shiba Inu,Shiba Inu,31,31,0.9429818391799927
+Sphynx_203,Sphynx,Sphynx,33,33,0.923770546913147
+leonberger_136,Leonberger,Leonberger,19,19,0.9359642863273621
+miniature_pinscher_171,Miniature Pinscher,Miniature Pinscher,21,21,0.9652336239814758
+havanese_190,Havanese,Havanese,16,16,0.9413310885429382
+British_Shorthair_180,British Shorthair,British Shorthair,9,9,0.9562593102455139
+Bengal_168,Bengal,Egyptian Mau,5,11,0.9341026544570923
+havanese_148,Havanese,Havanese,16,16,0.77918940782547
+newfoundland_133,Newfoundland,Newfoundland,22,22,0.8233537673950195
+american_bulldog_125,American Bulldog,American Bulldog,1,1,0.8681673407554626
+german_shorthaired_129,German Shorthaired,German Shorthaired,14,14,0.9754282832145691
+samoyed_18,Samoyed,Samoyed,29,29,0.9178299903869629
+scottish_terrier_117,Scottish Terrier,Scottish Terrier,30,30,0.782034695148468
+basset_hound_134,Basset Hound,Basset Hound,3,3,0.9612160921096802
+Sphynx_173,Sphynx,Sphynx,33,33,0.9590864181518555
+Sphynx_148,Sphynx,Sphynx,33,33,0.8374514579772949
+saint_bernard_190,Saint Bernard,Saint Bernard,28,28,0.6417679786682129
+Bengal_130,Bengal,Bengal,5,5,0.8443514704704285
+British_Shorthair_165,British Shorthair,British Shorthair,9,9,0.9591866135597229
+shiba_inu_199,Shiba Inu,Shiba Inu,31,31,0.9261468052864075
+Egyptian_Mau_146,Egyptian Mau,Egyptian Mau,11,11,0.621596097946167
+Egyptian_Mau_153,Egyptian Mau,Egyptian Mau,11,11,0.7887477278709412
+leonberger_135,Leonberger,Leonberger,19,19,0.9135283827781677
+shiba_inu_182,Shiba Inu,Shiba Inu,31,31,0.8891392946243286
+american_bulldog_130,American Bulldog,American Bulldog,1,1,0.7479761242866516
+miniature_pinscher_104,Miniature Pinscher,Miniature Pinscher,21,21,0.8888399004936218
+Siamese_151,Siamese,Siamese,32,32,0.6863663196563721
+miniature_pinscher_13,Miniature Pinscher,Miniature Pinscher,21,21,0.811568558216095
+shiba_inu_117,Shiba Inu,Shiba Inu,31,31,0.9359385967254639
+saint_bernard_167,Saint Bernard,Saint Bernard,28,28,0.46269646286964417
+english_setter_151,English Setter,English Setter,13,13,0.9656575322151184
+pomeranian_122,Pomeranian,Pomeranian,24,24,0.9350886940956116
+Ragdoll_125,Ragdoll,Ragdoll,26,26,0.9820423722267151
+Bombay_183,Bombay,Bombay,7,7,0.9673680067062378
+japanese_chin_103,Japanese Chin,Japanese Chin,17,17,0.957084059715271
+miniature_pinscher_177,Miniature Pinscher,Miniature Pinscher,21,21,0.9202479720115662
+Bombay_104,Bombay,Bombay,7,7,0.9225509166717529
+basset_hound_169,Basset Hound,Basset Hound,3,3,0.96180659532547
+english_setter_124,English Setter,English Setter,13,13,0.901678204536438
+pug_111,Pug,Pug,25,25,0.964467465877533
+Egyptian_Mau_10,Egyptian Mau,Egyptian Mau,11,11,0.9645075798034668
+yorkshire_terrier_128,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9596487283706665
+newfoundland_12,Newfoundland,Leonberger,22,19,0.7181956171989441
+chihuahua_129,Chihuahua,Chihuahua,10,10,0.8936854600906372
+Egyptian_Mau_174,Egyptian Mau,Egyptian Mau,11,11,0.7495679259300232
+Russian_Blue_139,Russian Blue,Russian Blue,27,27,0.9319753050804138
+japanese_chin_113,Japanese Chin,Japanese Chin,17,17,0.737820565700531
+boxer_179,Boxer,Boxer,8,8,0.9600335359573364
+pug_108,Pug,Pug,25,25,0.9651734232902527
+english_cocker_spaniel_106,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9650819301605225
+english_cocker_spaniel_126,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9362226128578186
+miniature_pinscher_125,Miniature Pinscher,Miniature Pinscher,21,21,0.5693906545639038
+wheaten_terrier_147,Wheaten Terrier,Wheaten Terrier,35,35,0.550977349281311
+wheaten_terrier_12,Wheaten Terrier,Wheaten Terrier,35,35,0.9320960640907288
+Sphynx_192,Sphynx,Sphynx,33,33,0.9382545948028564
+leonberger_102,Leonberger,Leonberger,19,19,0.785018265247345
+Sphynx_119,Sphynx,Sphynx,33,33,0.984329104423523
+beagle_150,Beagle,Beagle,4,4,0.5860462784767151
+boxer_146,Boxer,Boxer,8,8,0.9349049925804138
+miniature_pinscher_113,Miniature Pinscher,Miniature Pinscher,21,21,0.8718708753585815
+american_bulldog_184,American Bulldog,American Bulldog,1,1,0.9102441668510437
+Abyssinian_149,Abyssinian,Abyssinian,0,0,0.8169105648994446
+shiba_inu_134,Shiba Inu,Shiba Inu,31,31,0.8853716850280762
+leonberger_110,Leonberger,Leonberger,19,19,0.9433633089065552
+miniature_pinscher_184,Miniature Pinscher,Miniature Pinscher,21,21,0.8113999962806702
+boxer_168,Boxer,Boxer,8,8,0.9034938812255859
+great_pyrenees_122,Great Pyrenees,Great Pyrenees,15,15,0.9560431241989136
+staffordshire_bull_terrier_163,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.968675971031189
+leonberger_146,Leonberger,Leonberger,19,19,0.8938521146774292
+english_cocker_spaniel_129,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9855798482894897
+american_pit_bull_terrier_129,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.6205812096595764
+Siamese_100,Siamese,Siamese,32,32,0.7564930319786072
+Russian_Blue_120,Russian Blue,Russian Blue,27,27,0.9719765782356262
+english_setter_122,English Setter,English Setter,13,13,0.930551290512085
+Bombay_105,Bombay,Bombay,7,7,0.9485923647880554
+english_cocker_spaniel_183,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9388558864593506
+Abyssinian_179,Abyssinian,Abyssinian,0,0,0.9255968928337097
+great_pyrenees_153,Great Pyrenees,Great Pyrenees,15,15,0.93146151304245
+Siamese_157,Siamese,Siamese,32,32,0.7387492656707764
+British_Shorthair_119,British Shorthair,British Shorthair,9,9,0.8780775666236877
+samoyed_154,Samoyed,Samoyed,29,29,0.957781970500946
+Bombay_161,Bombay,Bombay,7,7,0.9728168249130249
+staffordshire_bull_terrier_189,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.6646709442138672
+german_shorthaired_122,German Shorthaired,German Shorthaired,14,14,0.7453894019126892
+Ragdoll_134,Ragdoll,Ragdoll,26,26,0.649054765701294
+leonberger_130,Leonberger,Leonberger,19,19,0.9199902415275574
+american_bulldog_143,American Bulldog,American Bulldog,1,1,0.9943714737892151
+wheaten_terrier_184,Wheaten Terrier,Wheaten Terrier,35,35,0.9848012328147888
+havanese_153,Havanese,Havanese,16,16,0.9232050776481628
+Birman_167,Birman,Birman,6,6,0.858477771282196
+keeshond_167,Keeshond,Keeshond,18,18,0.9466710090637207
+chihuahua_165,Chihuahua,Chihuahua,10,10,0.9390375018119812
+leonberger_116,Leonberger,Leonberger,19,19,0.9633700251579285
+Persian_195,Persian,Persian,23,23,0.8675650358200073
+basset_hound_11,Basset Hound,Basset Hound,3,3,0.9680678248405457
+yorkshire_terrier_185,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9551337957382202
+Bombay_116,Bombay,Bombay,7,7,0.9907992482185364
+pug_101,Pug,Pug,25,25,0.9902768135070801
+chihuahua_135,Chihuahua,Chihuahua,10,10,0.9156918525695801
+samoyed_189,Samoyed,Samoyed,29,29,0.9319604635238647
+basset_hound_127,Basset Hound,Basset Hound,3,3,0.8105846047401428
+english_cocker_spaniel_103,English Cocker Spaniel,English Cocker Spaniel,12,12,0.989657461643219
+keeshond_189,Keeshond,Keeshond,18,18,0.9644929766654968
+german_shorthaired_109,German Shorthaired,German Shorthaired,14,14,0.6616299748420715
+Bengal_126,Bengal,Bengal,5,5,0.9351189732551575
+Siamese_179,Siamese,Siamese,32,32,0.7951064705848694
+english_setter_128,English Setter,English Setter,13,13,0.9271314144134521
+Persian_206,Persian,Persian,23,23,0.8799147009849548
+British_Shorthair_189,British Shorthair,British Shorthair,9,9,0.5635221600532532
+Abyssinian_127,Abyssinian,Abyssinian,0,0,0.6102880239486694
+keeshond_123,Keeshond,Keeshond,18,18,0.9491336941719055
+great_pyrenees_150,Great Pyrenees,Great Pyrenees,15,15,0.9601001143455505
+Ragdoll_118,Ragdoll,Ragdoll,26,26,0.9028481841087341
+pug_100,Pug,Pug,25,25,0.9843573570251465
+keeshond_118,Keeshond,Keeshond,18,18,0.9544836282730103
+chihuahua_103,Chihuahua,Chihuahua,10,10,0.9651970863342285
+english_cocker_spaniel_14,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9502272605895996
+havanese_105,Havanese,Havanese,16,16,0.7183439135551453
+chihuahua_123,Chihuahua,Chihuahua,10,10,0.9090427160263062
+american_pit_bull_terrier_162,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.6720741987228394
+beagle_115,Beagle,Beagle,4,4,0.9581098556518555
+scottish_terrier_127,Scottish Terrier,Scottish Terrier,30,30,0.8552632927894592
+Siamese_206,Siamese,Siamese,32,32,0.42926743626594543
+boxer_124,Boxer,Boxer,8,8,0.7253275513648987
+wheaten_terrier_156,Wheaten Terrier,Wheaten Terrier,35,35,0.8294323682785034
+British_Shorthair_195,British Shorthair,British Shorthair,9,9,0.6865575909614563
+British_Shorthair_162,British Shorthair,British Shorthair,9,9,0.6924560070037842
+Maine_Coon_207,Maine Coon,Maine Coon,20,20,0.9167068004608154
+Russian_Blue_186,Russian Blue,Russian Blue,27,27,0.9869720339775085
+boxer_114,Boxer,Boxer,8,8,0.9543343186378479
+american_bulldog_175,American Bulldog,American Bulldog,1,1,0.529975950717926
+basset_hound_107,Basset Hound,Basset Hound,3,3,0.9807772040367126
+beagle_112,Beagle,Beagle,4,4,0.9691410660743713
+Persian_161,Persian,Persian,23,23,0.9060638546943665
+havanese_138,Havanese,Havanese,16,16,0.6650522351264954
+yorkshire_terrier_170,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8882222175598145
+german_shorthaired_165,German Shorthaired,German Shorthaired,14,14,0.9537878632545471
+newfoundland_129,Newfoundland,Newfoundland,22,22,0.9059880971908569
+japanese_chin_188,Japanese Chin,Japanese Chin,17,17,0.9090664386749268
+wheaten_terrier_17,Wheaten Terrier,Wheaten Terrier,35,35,0.8877617120742798
+boxer_172,Boxer,Pug,8,25,0.42537829279899597
+yorkshire_terrier_14,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9248882532119751
+english_setter_105,English Setter,English Setter,13,13,0.9261631369590759
+chihuahua_104,Chihuahua,Chihuahua,10,10,0.922560453414917
+Persian_104,Persian,Persian,23,23,0.9264770150184631
+great_pyrenees_141,Great Pyrenees,Great Pyrenees,15,15,0.6434173583984375
+basset_hound_155,Basset Hound,Basset Hound,3,3,0.9742083549499512
+Siamese_145,Siamese,Birman,32,6,0.32986894249916077
+Egyptian_Mau_150,Egyptian Mau,Egyptian Mau,11,11,0.9486716389656067
+great_pyrenees_110,Great Pyrenees,Great Pyrenees,15,15,0.9597839713096619
+havanese_143,Havanese,Havanese,16,16,0.7836495637893677
+shiba_inu_170,Shiba Inu,Shiba Inu,31,31,0.9187846779823303
+yorkshire_terrier_107,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9309075474739075
+american_bulldog_120,American Bulldog,American Bulldog,1,1,0.9480207562446594
+pomeranian_129,Pomeranian,Pomeranian,24,24,0.8865295648574829
+yorkshire_terrier_135,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8849841356277466
+shiba_inu_136,Shiba Inu,Shiba Inu,31,31,0.917934000492096
+newfoundland_144,Newfoundland,Newfoundland,22,22,0.9754610657691956
+yorkshire_terrier_182,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9527864456176758
+Siamese_161,Siamese,Siamese,32,32,0.8827590942382812
+german_shorthaired_188,German Shorthaired,German Shorthaired,14,14,0.950577437877655
+great_pyrenees_164,Great Pyrenees,Great Pyrenees,15,15,0.903515636920929
+staffordshire_bull_terrier_123,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9395694136619568
+english_cocker_spaniel_185,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9302260279655457
+great_pyrenees_161,Great Pyrenees,Great Pyrenees,15,15,0.935075044631958
+Egyptian_Mau_156,Egyptian Mau,Egyptian Mau,11,11,0.8894692063331604
+pug_11,Pug,Pug,25,25,0.9571484327316284
+german_shorthaired_174,German Shorthaired,German Shorthaired,14,14,0.9508268237113953
+american_bulldog_107,American Bulldog,American Bulldog,1,1,0.9749743342399597
+american_pit_bull_terrier_117,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.3572063446044922
+basset_hound_182,Basset Hound,Shiba Inu,3,31,0.6303985714912415
+english_cocker_spaniel_109,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9003147482872009
+shiba_inu_180,Shiba Inu,Shiba Inu,31,31,0.9295350909233093
+samoyed_11,Samoyed,Samoyed,29,29,0.9268356561660767
+saint_bernard_151,Saint Bernard,Saint Bernard,28,28,0.9033668041229248
+havanese_16,Havanese,Havanese,16,16,0.9304025769233704
+saint_bernard_158,Saint Bernard,Saint Bernard,28,28,0.9055872559547424
+samoyed_186,Samoyed,Samoyed,29,29,0.9685384035110474
+scottish_terrier_125,Scottish Terrier,Scottish Terrier,30,30,0.9650086760520935
+leonberger_15,Leonberger,Leonberger,19,19,0.8254947066307068
+keeshond_129,Keeshond,Keeshond,18,18,0.9331961274147034
+Maine_Coon_127,Maine Coon,Persian,20,23,0.7896310091018677
+beagle_118,Beagle,Beagle,4,4,0.7796887159347534
+pomeranian_157,Pomeranian,Pomeranian,24,24,0.9298515319824219
+Ragdoll_1,Ragdoll,Ragdoll,26,26,0.9719436764717102
+scottish_terrier_124,Scottish Terrier,Scottish Terrier,30,30,0.9145764708518982
+yorkshire_terrier_15,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9764106869697571
+Ragdoll_112,Ragdoll,Ragdoll,26,26,0.35953566431999207
+Siamese_207,Siamese,Siamese,32,32,0.870888888835907
+japanese_chin_142,Japanese Chin,Japanese Chin,17,17,0.9264118075370789
+pomeranian_190,Pomeranian,Pomeranian,24,24,0.937178909778595
+Abyssinian_191,Abyssinian,Abyssinian,0,0,0.5250839591026306
+boxer_122,Boxer,Boxer,8,8,0.5670677423477173
+great_pyrenees_135,Great Pyrenees,Great Pyrenees,15,15,0.8318654894828796
+pomeranian_110,Pomeranian,Pomeranian,24,24,0.912671685218811
+Maine_Coon_143,Maine Coon,Maine Coon,20,20,0.8744675517082214
+japanese_chin_170,Japanese Chin,Japanese Chin,17,17,0.8842634558677673
+english_cocker_spaniel_145,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9422778487205505
+english_cocker_spaniel_187,English Cocker Spaniel,English Cocker Spaniel,12,12,0.8625790476799011
+Maine_Coon_134,Maine Coon,Maine Coon,20,20,0.9826619625091553
+pug_15,Pug,Pug,25,25,0.9842250347137451
+Siamese_194,Siamese,Siamese,32,32,0.885308027267456
+samoyed_101,Samoyed,Samoyed,29,29,0.9628005623817444
+yorkshire_terrier_114,Yorkshire Terrier,Yorkshire Terrier,36,36,0.937167227268219
+scottish_terrier_130,Scottish Terrier,Scottish Terrier,30,30,0.8982380032539368
+leonberger_187,Leonberger,Leonberger,19,19,0.9469918608665466
+Egyptian_Mau_140,Egyptian Mau,Egyptian Mau,11,11,0.5907066464424133
+great_pyrenees_155,Great Pyrenees,Great Pyrenees,15,15,0.8660260438919067
+Birman_160,Birman,Birman,6,6,0.891055703163147
+Birman_115,Birman,Birman,6,6,0.9284817576408386
+english_cocker_spaniel_102,English Cocker Spaniel,English Cocker Spaniel,12,12,0.6160192489624023
+Abyssinian_11,Abyssinian,Abyssinian,0,0,0.8873047232627869
+pug_138,Pug,Pug,25,25,0.9744645357131958
+havanese_117,Havanese,Havanese,16,16,0.8588970899581909
+Maine_Coon_155,Maine Coon,Maine Coon,20,20,0.5826855897903442
+Ragdoll_128,Ragdoll,Ragdoll,26,26,0.956917405128479
+great_pyrenees_163,Great Pyrenees,Great Pyrenees,15,15,0.8272329568862915
+staffordshire_bull_terrier_124,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9416823387145996
+yorkshire_terrier_111,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8939985036849976
+miniature_pinscher_139,Miniature Pinscher,Miniature Pinscher,21,21,0.979121208190918
+havanese_17,Havanese,Havanese,16,16,0.9622921943664551
+staffordshire_bull_terrier_141,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9278890490531921
+yorkshire_terrier_155,Yorkshire Terrier,Yorkshire Terrier,36,36,0.6670116782188416
+Persian_118,Persian,Persian,23,23,0.9052203297615051
+newfoundland_131,Newfoundland,Newfoundland,22,22,0.8539385199546814
+British_Shorthair_124,British Shorthair,British Shorthair,9,9,0.9377091526985168
+Siamese_174,Siamese,Siamese,32,32,0.8968762159347534
+saint_bernard_100,Saint Bernard,Saint Bernard,28,28,0.8974995613098145
+pug_148,Pug,Pug,25,25,0.9398419260978699
+chihuahua_133,Chihuahua,Chihuahua,10,10,0.8085399866104126
+beagle_116,Beagle,Beagle,4,4,0.9762846827507019
+pug_116,Pug,Pug,25,25,0.9715918302536011
+japanese_chin_126,Japanese Chin,Japanese Chin,17,17,0.7793549299240112
+Abyssinian_134,Abyssinian,Abyssinian,0,0,0.782395601272583
+keeshond_177,Keeshond,Keeshond,18,18,0.9462459087371826
+Persian_217,Persian,Persian,23,23,0.3883296549320221
+english_cocker_spaniel_146,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9015196561813354
+keeshond_178,Keeshond,Keeshond,18,18,0.9088879823684692
+Egyptian_Mau_119,Egyptian Mau,Egyptian Mau,11,11,0.7904196977615356
+Bombay_19,Bombay,Bombay,7,7,0.9619637727737427
+yorkshire_terrier_136,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8934144973754883
+shiba_inu_142,Shiba Inu,Shiba Inu,31,31,0.9542500376701355
+Siamese_173,Siamese,Siamese,32,32,0.7004741430282593
+american_bulldog_137,American Bulldog,American Bulldog,1,1,0.9427595734596252
+newfoundland_116,Newfoundland,Newfoundland,22,22,0.8635119199752808
+Maine_Coon_142,Maine Coon,Bengal,20,5,0.5158500075340271
+keeshond_101,Keeshond,Keeshond,18,18,0.9417087435722351
+yorkshire_terrier_130,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8928881883621216
+pug_18,Pug,Pug,25,25,0.9571096897125244
+Ragdoll_111,Ragdoll,Birman,26,6,0.8764472603797913
+Maine_Coon_196,Maine Coon,Maine Coon,20,20,0.9543800354003906
+saint_bernard_103,Saint Bernard,Saint Bernard,28,28,0.9898566007614136
+Bengal_187,Bengal,Bengal,5,5,0.9853866100311279
+american_bulldog_104,American Bulldog,Staffordshire Bull Terrier,1,34,0.6440296769142151
+leonberger_113,Leonberger,Leonberger,19,19,0.9294333457946777
+Bengal_152,Bengal,Egyptian Mau,5,11,0.8942350745201111
+Maine_Coon_161,Maine Coon,Maine Coon,20,20,0.8869574069976807
+english_setter_130,English Setter,English Setter,13,13,0.9300296306610107
+keeshond_169,Keeshond,Keeshond,18,18,0.9465120434761047
+pomeranian_183,Pomeranian,Pomeranian,24,24,0.9519127011299133
+havanese_172,Havanese,Wheaten Terrier,16,35,0.6100245714187622
+Maine_Coon_206,Maine Coon,Maine Coon,20,20,0.9868500232696533
+Russian_Blue_159,Russian Blue,Russian Blue,27,27,0.7349515557289124
+Abyssinian_156,Abyssinian,Abyssinian,0,0,0.8711086511611938
+beagle_145,Beagle,Beagle,4,4,0.9157136082649231
+miniature_pinscher_122,Miniature Pinscher,Miniature Pinscher,21,21,0.938510000705719
+scottish_terrier_111,Scottish Terrier,Scottish Terrier,30,30,0.483462929725647
+Abyssinian_102,Abyssinian,Abyssinian,0,0,0.6541154384613037
+german_shorthaired_172,German Shorthaired,German Shorthaired,14,14,0.8473284244537354
+British_Shorthair_122,British Shorthair,British Shorthair,9,9,0.8979002833366394
+american_bulldog_133,American Bulldog,Staffordshire Bull Terrier,1,34,0.5382994413375854
+miniature_pinscher_163,Miniature Pinscher,Miniature Pinscher,21,21,0.872486412525177
+leonberger_182,Leonberger,Leonberger,19,19,0.9238886833190918
+Persian_102,Persian,Persian,23,23,0.9788751006126404
+newfoundland_132,Newfoundland,Newfoundland,22,22,0.8114700317382812
+Bombay_119,Bombay,Bombay,7,7,0.6306458115577698
+Abyssinian_183,Abyssinian,Abyssinian,0,0,0.9389380812644958
+Sphynx_196,Sphynx,Sphynx,33,33,0.8543129563331604
+Birman_103,Birman,Birman,6,6,0.9649534821510315
+Persian_117,Persian,Persian,23,23,0.87382972240448
+japanese_chin_189,Japanese Chin,Japanese Chin,17,17,0.7169936299324036
+saint_bernard_149,Saint Bernard,Saint Bernard,28,28,0.9379469156265259
+american_pit_bull_terrier_181,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.7887216210365295
+shiba_inu_105,Shiba Inu,Shiba Inu,31,31,0.8500752449035645
+yorkshire_terrier_154,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9319194555282593
+english_setter_185,English Setter,English Setter,13,13,0.8916114568710327
+Abyssinian_113,Abyssinian,Abyssinian,0,0,0.4149436950683594
+american_pit_bull_terrier_14,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.6645196080207825
+Ragdoll_132,Ragdoll,Ragdoll,26,26,0.9729757905006409
+american_pit_bull_terrier_163,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.7392966747283936
+keeshond_172,Keeshond,Keeshond,18,18,0.9155236482620239
+Egyptian_Mau_133,Egyptian Mau,Egyptian Mau,11,11,0.8998350501060486
+english_cocker_spaniel_178,English Cocker Spaniel,English Cocker Spaniel,12,12,0.7959685325622559
+Birman_187,Birman,Birman,6,6,0.5160679221153259
+shiba_inu_120,Shiba Inu,Shiba Inu,31,31,0.961012065410614
+Abyssinian_1,Abyssinian,Abyssinian,0,0,0.4863320291042328
+Abyssinian_168,Abyssinian,Bengal,0,5,0.38067182898521423
+yorkshire_terrier_150,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8616450428962708
+japanese_chin_141,Japanese Chin,Japanese Chin,17,17,0.7849686145782471
+British_Shorthair_176,British Shorthair,British Shorthair,9,9,0.8284500241279602
+Ragdoll_162,Ragdoll,Ragdoll,26,26,0.9457349181175232
+Egyptian_Mau_170,Egyptian Mau,Bengal,11,5,0.6578050851821899
+pug_154,Pug,Pug,25,25,0.9624028205871582
+staffordshire_bull_terrier_103,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.7762975096702576
+japanese_chin_180,Japanese Chin,Japanese Chin,17,17,0.9433925747871399
+english_setter_116,English Setter,English Setter,13,13,0.9370400309562683
+scottish_terrier_108,Scottish Terrier,Scottish Terrier,30,30,0.4154612421989441
+beagle_108,Beagle,Beagle,4,4,0.9459317326545715
+havanese_111,Havanese,Havanese,16,16,0.6983460783958435
+german_shorthaired_119,German Shorthaired,German Shorthaired,14,14,0.6964721083641052
+english_setter_134,English Setter,English Setter,13,13,0.8531790375709534
+British_Shorthair_168,British Shorthair,British Shorthair,9,9,0.5499958395957947
+leonberger_152,Leonberger,Leonberger,19,19,0.9598631858825684
+scottish_terrier_122,Scottish Terrier,Bombay,30,7,0.64618319272995
+scottish_terrier_110,Scottish Terrier,Scottish Terrier,30,30,0.9067304730415344
+english_setter_179,English Setter,English Setter,13,13,0.9585383534431458
+beagle_160,Beagle,Beagle,4,4,0.4712637662887573
+samoyed_15,Samoyed,Samoyed,29,29,0.8970329165458679
+leonberger_123,Leonberger,Leonberger,19,19,0.9542214870452881
+pomeranian_128,Pomeranian,Pomeranian,24,24,0.8915079236030579
+english_cocker_spaniel_100,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9370901584625244
+samoyed_146,Samoyed,Samoyed,29,29,0.9023287892341614
+Sphynx_14,Sphynx,Sphynx,33,33,0.8803909420967102
+Russian_Blue_119,Russian Blue,Russian Blue,27,27,0.4920659363269806
+Russian_Blue_177,Russian Blue,Russian Blue,27,27,0.9668111801147461
+beagle_129,Beagle,Beagle,4,4,0.888253927230835
+Persian_123,Persian,Persian,23,23,0.9158464670181274
+Egyptian_Mau_128,Egyptian Mau,Bengal,11,5,0.3780147135257721
+basset_hound_158,Basset Hound,Beagle,3,4,0.22201797366142273
+samoyed_104,Samoyed,Samoyed,29,29,0.9579176902770996
+pomeranian_118,Pomeranian,Pomeranian,24,24,0.9904925227165222
+great_pyrenees_157,Great Pyrenees,Great Pyrenees,15,15,0.9504908919334412
+Maine_Coon_160,Maine Coon,Maine Coon,20,20,0.9893340468406677
+Bombay_158,Bombay,Bombay,7,7,0.9891039133071899
+german_shorthaired_142,German Shorthaired,German Shorthaired,14,14,0.8908910751342773
+Egyptian_Mau_134,Egyptian Mau,Egyptian Mau,11,11,0.9788774847984314
+beagle_157,Beagle,Beagle,4,4,0.8861151933670044
+leonberger_119,Leonberger,Leonberger,19,19,0.8623935580253601
+chihuahua_131,Chihuahua,Chihuahua,10,10,0.8596923351287842
+basset_hound_178,Basset Hound,Basset Hound,3,3,0.9780932664871216
+english_setter_137,English Setter,English Setter,13,13,0.8138099908828735
+Maine_Coon_153,Maine Coon,Maine Coon,20,20,0.9756960272789001
+Sphynx_183,Sphynx,Russian Blue,33,27,0.34073272347450256
+chihuahua_154,Chihuahua,Chihuahua,10,10,0.8642532229423523
+Birman_178,Birman,Birman,6,6,0.5225706100463867
+Russian_Blue_155,Russian Blue,Russian Blue,27,27,0.9517199397087097
+german_shorthaired_113,German Shorthaired,German Shorthaired,14,14,0.9505903124809265
+wheaten_terrier_170,Wheaten Terrier,Wheaten Terrier,35,35,0.9003134965896606
+yorkshire_terrier_189,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9604039788246155
+staffordshire_bull_terrier_140,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9817999601364136
+Persian_122,Persian,Persian,23,23,0.7955313920974731
+Sphynx_103,Sphynx,Sphynx,33,33,0.9426689147949219
+english_cocker_spaniel_107,English Cocker Spaniel,English Cocker Spaniel,12,12,0.9475947618484497
+basset_hound_187,Basset Hound,Basset Hound,3,3,0.9658926725387573
+miniature_pinscher_123,Miniature Pinscher,Miniature Pinscher,21,21,0.7911590337753296
+newfoundland_166,Newfoundland,Newfoundland,22,22,0.9571200609207153
+basset_hound_143,Basset Hound,Basset Hound,3,3,0.9622525572776794
+chihuahua_175,Chihuahua,Chihuahua,10,10,0.9459941387176514
+great_pyrenees_156,Great Pyrenees,Great Pyrenees,15,15,0.940581202507019
+Birman_152,Birman,Birman,6,6,0.9842963814735413
+boxer_155,Boxer,Sphynx,8,33,0.33491483330726624
+scottish_terrier_119,Scottish Terrier,Keeshond,30,18,0.3026345670223236
+Ragdoll_146,Ragdoll,Ragdoll,26,26,0.9097369313240051
+shiba_inu_112,Shiba Inu,Shiba Inu,31,31,0.8998816609382629
+staffordshire_bull_terrier_149,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9730894565582275
+Egyptian_Mau_108,Egyptian Mau,Egyptian Mau,11,11,0.9006698727607727
+basset_hound_124,Basset Hound,Basset Hound,3,3,0.9562428593635559
+havanese_189,Havanese,Havanese,16,16,0.8842149376869202
+Bombay_126,Bombay,Bombay,7,7,0.9436092376708984
+Birman_132,Birman,Birman,6,6,0.9670947790145874
+pomeranian_111,Pomeranian,Pomeranian,24,24,0.8969559073448181
+saint_bernard_131,Saint Bernard,Saint Bernard,28,28,0.9587706923484802
+chihuahua_146,Chihuahua,Miniature Pinscher,10,21,0.580190896987915
+scottish_terrier_141,Scottish Terrier,Scottish Terrier,30,30,0.8684178590774536
+Bombay_100,Bombay,Bombay,7,7,0.6360525488853455
+Persian_125,Persian,Persian,23,23,0.6929214596748352
+Bengal_141,Bengal,Egyptian Mau,5,11,0.5707404613494873
+english_setter_115,English Setter,English Setter,13,13,0.8786393404006958
+staffordshire_bull_terrier_196,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.9713215827941895
+British_Shorthair_120,British Shorthair,British Shorthair,9,9,0.9179940819740295
+Maine_Coon_148,Maine Coon,Maine Coon,20,20,0.963330090045929
+great_pyrenees_10,Great Pyrenees,Great Pyrenees,15,15,0.9244145154953003
+american_pit_bull_terrier_150,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.42323553562164307
+great_pyrenees_139,Great Pyrenees,Great Pyrenees,15,15,0.9626860022544861
+japanese_chin_190,Japanese Chin,Japanese Chin,17,17,0.962203323841095
+american_pit_bull_terrier_161,American Pit Bull Terrier,Staffordshire Bull Terrier,2,34,0.39126503467559814
+boxer_120,Boxer,Boxer,8,8,0.7697650194168091
+samoyed_135,Samoyed,Samoyed,29,29,0.9793940782546997
+newfoundland_142,Newfoundland,Newfoundland,22,22,0.9570397138595581
+Birman_117,Birman,Birman,6,6,0.8449460864067078
+pomeranian_105,Pomeranian,Pomeranian,24,24,0.8494560718536377
+saint_bernard_121,Saint Bernard,Saint Bernard,28,28,0.985755205154419
+saint_bernard_135,Saint Bernard,Saint Bernard,28,28,0.9485554695129395
+beagle_152,Beagle,Beagle,4,4,0.5536171793937683
+Russian_Blue_184,Russian Blue,Russian Blue,27,27,0.48445993661880493
+Siamese_135,Siamese,Siamese,32,32,0.6781721711158752
+wheaten_terrier_168,Wheaten Terrier,Wheaten Terrier,35,35,0.8020285964012146
+Ragdoll_116,Ragdoll,Ragdoll,26,26,0.7884957790374756
+english_cocker_spaniel_16,English Cocker Spaniel,English Setter,12,13,0.5321416258811951
+Bombay_148,Bombay,Bombay,7,7,0.8910989761352539
+Siamese_127,Siamese,Siamese,32,32,0.2117985635995865
+chihuahua_136,Chihuahua,Chihuahua,10,10,0.7859427332878113
+english_setter_190,English Setter,English Setter,13,13,0.9259909987449646
+Bengal_161,Bengal,Bengal,5,5,0.5987817049026489
+saint_bernard_137,Saint Bernard,Saint Bernard,28,28,0.9526970386505127
+keeshond_141,Keeshond,Keeshond,18,18,0.9703744649887085
+Maine_Coon_149,Maine Coon,Maine Coon,20,20,0.9811578392982483
+japanese_chin_124,Japanese Chin,Japanese Chin,17,17,0.9266749024391174
+Birman_128,Birman,Birman,6,6,0.965890109539032
+Bombay_163,Bombay,Bombay,7,7,0.9414511322975159
+miniature_pinscher_15,Miniature Pinscher,Miniature Pinscher,21,21,0.5681564807891846
+Abyssinian_182,Abyssinian,Abyssinian,0,0,0.8424660563468933
+basset_hound_149,Basset Hound,Basset Hound,3,3,0.9653778076171875
+Ragdoll_141,Ragdoll,Ragdoll,26,26,0.48955029249191284
+beagle_155,Beagle,Beagle,4,4,0.9474048018455505
+saint_bernard_141,Saint Bernard,Saint Bernard,28,28,0.9561740756034851
+scottish_terrier_102,Scottish Terrier,Scottish Terrier,30,30,0.8000019788742065
+pomeranian_161,Pomeranian,Pomeranian,24,24,0.8486957550048828
+Russian_Blue_115,Russian Blue,Russian Blue,27,27,0.6170450448989868
+english_setter_168,English Setter,English Setter,13,13,0.8919726014137268
+Bombay_125,Bombay,Bombay,7,7,0.9128081202507019
+japanese_chin_176,Japanese Chin,Japanese Chin,17,17,0.8452610373497009
+boxer_150,Boxer,Boxer,8,8,0.27688902616500854
+beagle_189,Beagle,English Setter,4,13,0.6569800972938538
+keeshond_12,Keeshond,Keeshond,18,18,0.9695009589195251
+Siamese_106,Siamese,Siamese,32,32,0.8364060521125793
+wheaten_terrier_124,Wheaten Terrier,Wheaten Terrier,35,35,0.925160825252533
+havanese_136,Havanese,Havanese,16,16,0.8411822319030762
+havanese_157,Havanese,Havanese,16,16,0.896148145198822
+japanese_chin_173,Japanese Chin,Japanese Chin,17,17,0.8719382286071777
+scottish_terrier_114,Scottish Terrier,Scottish Terrier,30,30,0.9859929084777832
+Egyptian_Mau_13,Egyptian Mau,Egyptian Mau,11,11,0.7860930562019348
+Bengal_110,Bengal,Bengal,5,5,0.921526312828064
+keeshond_136,Keeshond,Keeshond,18,18,0.9449795484542847
+miniature_pinscher_133,Miniature Pinscher,Miniature Pinscher,21,21,0.9376626014709473
+japanese_chin_101,Japanese Chin,Japanese Chin,17,17,0.7706372737884521
+miniature_pinscher_18,Miniature Pinscher,Miniature Pinscher,21,21,0.8651981353759766
+american_pit_bull_terrier_182,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.5044582486152649
+boxer_160,Boxer,Boxer,8,8,0.9463830590248108
+Bengal_101,Bengal,Bengal,5,5,0.8368103504180908
+miniature_pinscher_110,Miniature Pinscher,Miniature Pinscher,21,21,0.7137759327888489
+boxer_14,Boxer,Boxer,8,8,0.9696398973464966
+Bengal_175,Bengal,Egyptian Mau,5,11,0.7944739460945129
+Russian_Blue_13,Russian Blue,Russian Blue,27,27,0.7394582033157349
+shiba_inu_127,Shiba Inu,Shiba Inu,31,31,0.9546402096748352
+newfoundland_119,Newfoundland,Newfoundland,22,22,0.8697032332420349
+pug_135,Pug,Pug,25,25,0.8879552483558655
+newfoundland_143,Newfoundland,Newfoundland,22,22,0.9605373740196228
+chihuahua_177,Chihuahua,Chihuahua,10,10,0.5720856189727783
+scottish_terrier_153,Scottish Terrier,Scottish Terrier,30,30,0.952501654624939
+english_setter_177,English Setter,English Setter,13,13,0.8379790186882019
+Abyssinian_170,Abyssinian,Maine Coon,0,20,0.8632200956344604
+British_Shorthair_105,British Shorthair,British Shorthair,9,9,0.937568187713623
+yorkshire_terrier_160,Yorkshire Terrier,Yorkshire Terrier,36,36,0.9699224233627319
+german_shorthaired_163,German Shorthaired,German Shorthaired,14,14,0.8394811749458313
+Sphynx_182,Sphynx,Sphynx,33,33,0.8138666152954102
+newfoundland_113,Newfoundland,Newfoundland,22,22,0.921226441860199
+pug_109,Pug,Pug,25,25,0.9692349433898926
+British_Shorthair_200,British Shorthair,British Shorthair,9,9,0.9764416217803955
+pomeranian_171,Pomeranian,Pomeranian,24,24,0.9876534342765808
+german_shorthaired_123,German Shorthaired,German Shorthaired,14,14,0.9014362692832947
+saint_bernard_176,Saint Bernard,Saint Bernard,28,28,0.9250512719154358
+Ragdoll_158,Ragdoll,Ragdoll,26,26,0.8906639814376831
+Siamese_17,Siamese,Siamese,32,32,0.8979373574256897
+Russian_Blue_197,Russian Blue,Russian Blue,27,27,0.900028645992279
+american_pit_bull_terrier_101,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.8086410164833069
+British_Shorthair_133,British Shorthair,British Shorthair,9,9,0.7972107529640198
+basset_hound_146,Basset Hound,Basset Hound,3,3,0.9779872298240662
+Sphynx_15,Sphynx,Sphynx,33,33,0.8440127372741699
+chihuahua_156,Chihuahua,Chihuahua,10,10,0.637054443359375
+Birman_182,Birman,Birman,6,6,0.9344220161437988
+Egyptian_Mau_120,Egyptian Mau,Egyptian Mau,11,11,0.4796941876411438
+beagle_14,Beagle,Beagle,4,4,0.9396723508834839
+Siamese_141,Siamese,Siamese,32,32,0.82315993309021
+staffordshire_bull_terrier_1,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.8528323173522949
+Bengal_132,Bengal,Bengal,5,5,0.41710376739501953
+Ragdoll_201,Ragdoll,Birman,26,6,0.8611506223678589
+British_Shorthair_161,British Shorthair,British Shorthair,9,9,0.8017072081565857
+english_setter_138,English Setter,English Setter,13,13,0.8421089053153992
+saint_bernard_144,Saint Bernard,Saint Bernard,28,28,0.7721481919288635
+Abyssinian_155,Abyssinian,Abyssinian,0,0,0.495747447013855
+shiba_inu_193,Shiba Inu,Shiba Inu,31,31,0.9176785349845886
+american_pit_bull_terrier_121,American Pit Bull Terrier,Miniature Pinscher,2,21,0.9274054765701294
+samoyed_163,Samoyed,Samoyed,29,29,0.9688865542411804
+german_shorthaired_110,German Shorthaired,German Shorthaired,14,14,0.967941164970398
+american_bulldog_106,American Bulldog,American Bulldog,1,1,0.8830379247665405
+great_pyrenees_17,Great Pyrenees,Great Pyrenees,15,15,0.9292020201683044
+pug_186,Pug,Pug,25,25,0.9467077851295471
+samoyed_114,Samoyed,Samoyed,29,29,0.8928095102310181
+boxer_182,Boxer,American Bulldog,8,1,0.8826665878295898
+Siamese_103,Siamese,Siamese,32,32,0.9698739051818848
+Russian_Blue_200,Russian Blue,Russian Blue,27,27,0.6554820537567139
+Maine_Coon_210,Maine Coon,Maine Coon,20,20,0.9454653263092041
+samoyed_136,Samoyed,Samoyed,29,29,0.9612919092178345
+basset_hound_153,Basset Hound,Basset Hound,3,3,0.9777703881263733
+Russian_Blue_194,Russian Blue,Russian Blue,27,27,0.9630142450332642
+Bombay_10,Bombay,Bombay,7,7,0.863960325717926
+havanese_182,Havanese,Havanese,16,16,0.9642871618270874
+shiba_inu_157,Shiba Inu,Shiba Inu,31,31,0.47305625677108765
+scottish_terrier_162,Scottish Terrier,Scottish Terrier,30,30,0.8672868013381958
+scottish_terrier_100,Scottish Terrier,Scottish Terrier,30,30,0.9463459253311157
+Sphynx_114,Sphynx,Sphynx,33,33,0.9163033962249756
+Birman_155,Birman,Birman,6,6,0.4241231381893158
+basset_hound_119,Basset Hound,Basset Hound,3,3,0.9777513742446899
+British_Shorthair_103,British Shorthair,British Shorthair,9,9,0.9724323749542236
+wheaten_terrier_123,Wheaten Terrier,Wheaten Terrier,35,35,0.84814453125
+saint_bernard_181,Saint Bernard,Saint Bernard,28,28,0.902794361114502
+shiba_inu_176,Shiba Inu,Shiba Inu,31,31,0.9655464887619019
+Russian_Blue_103,Russian Blue,Russian Blue,27,27,0.8599340915679932
+Sphynx_11,Sphynx,Sphynx,33,33,0.9730502963066101
+american_bulldog_199,American Bulldog,American Bulldog,1,1,0.843488872051239
+american_pit_bull_terrier_134,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.663517415523529
+wheaten_terrier_173,Wheaten Terrier,Wheaten Terrier,35,35,0.8285754323005676
+Persian_171,Persian,Persian,23,23,0.9574942588806152
+Maine_Coon_219,Maine Coon,Bengal,20,5,0.7887954711914062
+wheaten_terrier_158,Wheaten Terrier,Wheaten Terrier,35,35,0.95685213804245
+german_shorthaired_114,German Shorthaired,German Shorthaired,14,14,0.8689637780189514
+beagle_104,Beagle,Beagle,4,4,0.9783939719200134
+american_pit_bull_terrier_115,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.568263828754425
+chihuahua_170,Chihuahua,Chihuahua,10,10,0.7870762348175049
+British_Shorthair_159,British Shorthair,British Shorthair,9,9,0.9217235445976257
+american_pit_bull_terrier_100,American Pit Bull Terrier,American Bulldog,2,1,0.49727118015289307
+pug_156,Pug,Pug,25,25,0.9395507574081421
+newfoundland_10,Newfoundland,Newfoundland,22,22,0.8772508502006531
+Birman_149,Birman,Birman,6,6,0.7669482827186584
+japanese_chin_11,Japanese Chin,Japanese Chin,17,17,0.9542904496192932
+Bombay_184,Bombay,Bombay,7,7,0.9441813230514526
+Siamese_200,Siamese,Siamese,32,32,0.745209813117981
+pomeranian_170,Pomeranian,Pomeranian,24,24,0.8809791803359985
+beagle_187,Beagle,Beagle,4,4,0.9361730813980103
+Birman_17,Birman,Birman,6,6,0.8293249607086182
+miniature_pinscher_143,Miniature Pinscher,American Pit Bull Terrier,21,2,0.7915249466896057
+Abyssinian_121,Abyssinian,Abyssinian,0,0,0.42805010080337524
+Abyssinian_159,Abyssinian,Abyssinian,0,0,0.7809836864471436
+Sphynx_190,Sphynx,Sphynx,33,33,0.7603159546852112
+scottish_terrier_157,Scottish Terrier,Scottish Terrier,30,30,0.735717236995697
+wheaten_terrier_148,Wheaten Terrier,Wheaten Terrier,35,35,0.6119005084037781
+Abyssinian_119,Abyssinian,Abyssinian,0,0,0.874417781829834
+samoyed_177,Samoyed,Samoyed,29,29,0.973615288734436
+chihuahua_116,Chihuahua,Chihuahua,10,10,0.8770468831062317
+newfoundland_14,Newfoundland,Newfoundland,22,22,0.7926033735275269
+boxer_145,Boxer,Boxer,8,8,0.864588737487793
+Bengal_106,Bengal,Bengal,5,5,0.8959223628044128
+havanese_18,Havanese,Havanese,16,16,0.8176239132881165
+staffordshire_bull_terrier_127,Staffordshire Bull Terrier,Staffordshire Bull Terrier,34,34,0.866970956325531
+leonberger_189,Leonberger,Leonberger,19,19,0.7967712879180908
+Ragdoll_202,Ragdoll,Ragdoll,26,26,0.9710354208946228
+wheaten_terrier_146,Wheaten Terrier,Wheaten Terrier,35,35,0.9852557182312012
+yorkshire_terrier_115,Yorkshire Terrier,Yorkshire Terrier,36,36,0.8780352473258972
+boxer_107,Boxer,Boxer,8,8,0.9578400254249573
+wheaten_terrier_113,Wheaten Terrier,Wheaten Terrier,35,35,0.845090389251709
+samoyed_151,Samoyed,Samoyed,29,29,0.9559091925621033
+scottish_terrier_10,Scottish Terrier,Scottish Terrier,30,30,0.8697826266288757
+basset_hound_162,Basset Hound,Basset Hound,3,3,0.7851488590240479
+Russian_Blue_176,Russian Blue,Russian Blue,27,27,0.77195805311203
+staffordshire_bull_terrier_105,Staffordshire Bull Terrier,American Bulldog,34,1,0.4803573489189148
+american_pit_bull_terrier_13,American Pit Bull Terrier,American Pit Bull Terrier,2,2,0.4868639409542084
+basset_hound_103,Basset Hound,Basset Hound,3,3,0.723389744758606
+pomeranian_140,Pomeranian,Pomeranian,24,24,0.9126830101013184
+Ragdoll_119,Ragdoll,Ragdoll,26,26,0.9478346705436707
+chihuahua_112,Chihuahua,American Pit Bull Terrier,10,2,0.681187629699707
+boxer_139,Boxer,Boxer,8,8,0.691963791847229
+havanese_140,Havanese,Havanese,16,16,0.9641470909118652
+wheaten_terrier_14,Wheaten Terrier,Wheaten Terrier,35,35,0.9383124709129333
+pomeranian_101,Pomeranian,Pomeranian,24,24,0.8948817253112793
+Bengal_173,Bengal,Bengal,5,5,0.6956746578216553
+pomeranian_186,Pomeranian,Pomeranian,24,24,0.9732517004013062
+saint_bernard_104,Saint Bernard,Saint Bernard,28,28,0.9662914276123047
+saint_bernard_163,Saint Bernard,Saint Bernard,28,28,0.9693009853363037
+german_shorthaired_164,German Shorthaired,German Shorthaired,14,14,0.9675838947296143
+newfoundland_168,Newfoundland,Newfoundland,22,22,0.8885598182678223
+Bengal_167,Bengal,Bengal,5,5,0.6047520041465759
+chihuahua_138,Chihuahua,Chihuahua,10,10,0.9847138524055481
+Persian_20,Persian,Persian,23,23,0.9182506203651428
+Maine_Coon_195,Maine Coon,Maine Coon,20,20,0.8465120792388916
+german_shorthaired_179,German Shorthaired,German Shorthaired,14,14,0.9509469270706177
+english_setter_163,English Setter,English Setter,13,13,0.8502711057662964
+Birman_111,Birman,Birman,6,6,0.9803962707519531
+Maine_Coon_192,Maine Coon,Maine Coon,20,20,0.663580596446991
+Bengal_107,Bengal,Bengal,5,5,0.8837903141975403
+Bombay_131,Bombay,Bombay,7,7,0.9446748495101929
+Russian_Blue_127,Russian Blue,Russian Blue,27,27,0.9698740839958191

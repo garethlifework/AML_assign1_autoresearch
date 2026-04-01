@@ -1,0 +1,200 @@
+{
+  "config": {
+    "augmentation": "mild",
+    "backbone": "resnet50",
+    "cutmix_alpha": 0.0,
+    "eval_batch_size": 32,
+    "evaluate_test": false,
+    "fine_tune_scope": "full",
+    "finetune_epochs": 8,
+    "finetune_lr": 3e-05,
+    "head_epochs": 2,
+    "head_lr": 0.001,
+    "image_mode": "raw",
+    "image_size": 224,
+    "label_smoothing": 0.05,
+    "mixup_alpha": 0.0,
+    "name": "auto_r50_full_raw",
+    "num_workers": 0,
+    "optimizer": "adamw",
+    "paths": {
+      "data_dir": "data/oxford-iiit-pet",
+      "output_dir": "runs"
+    },
+    "patience": 3,
+    "random_erasing_p": 0.0,
+    "resume_if_available": true,
+    "save_confusion": true,
+    "save_predictions": true,
+    "scheduler": "cosine",
+    "seed": 42,
+    "source_run_name": null,
+    "species_filter": null,
+    "split_seed": 42,
+    "task": "breed",
+    "train_batch_size": 16,
+    "tta": false,
+    "tta_passes": 4,
+    "use_amp": true,
+    "val_fraction": 0.2,
+    "weight_decay": 0.0001
+  },
+  "device": "cuda",
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "acc": 0.688858695652174,
+        "loss": 1.8924430061293684
+      },
+      "val": {
+        "acc": 0.8940217391304348,
+        "loss": 1.0169995193896086
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "acc": 0.9177989130434783,
+        "loss": 0.8248385936021805
+      },
+      "val": {
+        "acc": 0.9130434782608695,
+        "loss": 0.761377127274223
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "acc": 0.9541440217391305,
+        "loss": 0.6144178751046243
+      },
+      "val": {
+        "acc": 0.9334239130434783,
+        "loss": 0.6241597196330195
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "acc": 0.9782608695652174,
+        "loss": 0.52662788072358
+      },
+      "val": {
+        "acc": 0.9375,
+        "loss": 0.6063912510871887
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "acc": 0.9870923913043478,
+        "loss": 0.48927383076237596
+      },
+      "val": {
+        "acc": 0.9375,
+        "loss": 0.5938902549121691
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "acc": 0.9949048913043478,
+        "loss": 0.4596249172868936
+      },
+      "val": {
+        "acc": 0.9442934782608695,
+        "loss": 0.584554549144662
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "acc": 0.9969429347826086,
+        "loss": 0.4379600205499193
+      },
+      "val": {
+        "acc": 0.9538043478260869,
+        "loss": 0.5738049952880196
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "acc": 0.9966032608695652,
+        "loss": 0.4303667990733748
+      },
+      "val": {
+        "acc": 0.9429347826086957,
+        "loss": 0.5723166867442753
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "acc": 0.9972826086956522,
+        "loss": 0.4195463542381059
+      },
+      "val": {
+        "acc": 0.9442934782608695,
+        "loss": 0.5726788769597593
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "acc": 0.9996603260869565,
+        "loss": 0.41012528862642206
+      },
+      "val": {
+        "acc": 0.9483695652173914,
+        "loss": 0.5697900069796521
+      }
+    }
+  ],
+  "label_names": [
+    "Abyssinian",
+    "American Bulldog",
+    "American Pit Bull Terrier",
+    "Basset Hound",
+    "Beagle",
+    "Bengal",
+    "Birman",
+    "Bombay",
+    "Boxer",
+    "British Shorthair",
+    "Chihuahua",
+    "Egyptian Mau",
+    "English Cocker Spaniel",
+    "English Setter",
+    "German Shorthaired",
+    "Great Pyrenees",
+    "Havanese",
+    "Japanese Chin",
+    "Keeshond",
+    "Leonberger",
+    "Maine Coon",
+    "Miniature Pinscher",
+    "Newfoundland",
+    "Persian",
+    "Pomeranian",
+    "Pug",
+    "Ragdoll",
+    "Russian Blue",
+    "Saint Bernard",
+    "Samoyed",
+    "Scottish Terrier",
+    "Shiba Inu",
+    "Siamese",
+    "Sphynx",
+    "Staffordshire Bull Terrier",
+    "Wheaten Terrier",
+    "Yorkshire Terrier"
+  ],
+  "test_metrics": null,
+  "timestamp": 1775049062.6030505,
+  "val_metrics": {
+    "acc": 0.9538043478260869,
+    "macro_recall": 0.9539829302987197
+  }
+}

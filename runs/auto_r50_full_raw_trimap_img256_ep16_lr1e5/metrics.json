@@ -1,0 +1,288 @@
+{
+  "config": {
+    "augmentation": "mild",
+    "backbone": "resnet50",
+    "cutmix_alpha": 0.0,
+    "eval_batch_size": 32,
+    "evaluate_test": false,
+    "fine_tune_scope": "full",
+    "finetune_epochs": 16,
+    "finetune_lr": 1e-05,
+    "head_epochs": 2,
+    "head_lr": 0.001,
+    "image_mode": "trimap_foreground",
+    "image_size": 256,
+    "label_smoothing": 0.05,
+    "mixup_alpha": 0.0,
+    "name": "auto_r50_full_raw_trimap_img256_ep16_lr1e5",
+    "num_workers": 0,
+    "optimizer": "adamw",
+    "paths": {
+      "data_dir": "data/oxford-iiit-pet",
+      "output_dir": "runs"
+    },
+    "patience": 3,
+    "random_erasing_p": 0.0,
+    "resume_if_available": true,
+    "save_confusion": true,
+    "save_predictions": true,
+    "scheduler": "cosine",
+    "seed": 42,
+    "source_run_name": null,
+    "species_filter": null,
+    "split_seed": 42,
+    "task": "breed",
+    "train_batch_size": 16,
+    "tta": false,
+    "tta_passes": 4,
+    "use_amp": true,
+    "val_fraction": 0.2,
+    "weight_decay": 0.0001
+  },
+  "device": "cuda",
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "acc": 0.6766304347826086,
+        "loss": 1.9642688761586728
+      },
+      "val": {
+        "acc": 0.8926630434782609,
+        "loss": 1.0721616045288418
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "acc": 0.9123641304347826,
+        "loss": 0.8734942567737206
+      },
+      "val": {
+        "acc": 0.9130434782608695,
+        "loss": 0.7870664777963058
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "acc": 0.9575407608695652,
+        "loss": 0.6474337457962658
+      },
+      "val": {
+        "acc": 0.9320652173913043,
+        "loss": 0.6391679022623145
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "acc": 0.9588994565217391,
+        "loss": 0.5936405261897523
+      },
+      "val": {
+        "acc": 0.9375,
+        "loss": 0.6135807089183641
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "acc": 0.9735054347826086,
+        "loss": 0.5552664489849753
+      },
+      "val": {
+        "acc": 0.9442934782608695,
+        "loss": 0.6039307234079941
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "acc": 0.9819972826086957,
+        "loss": 0.5294900342174198
+      },
+      "val": {
+        "acc": 0.9415760869565217,
+        "loss": 0.5998256310172703
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "acc": 0.9867527173913043,
+        "loss": 0.5090905857150969
+      },
+      "val": {
+        "acc": 0.9402173913043478,
+        "loss": 0.585259181001912
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "acc": 0.990828804347826,
+        "loss": 0.4939248812911303
+      },
+      "val": {
+        "acc": 0.9415760869565217,
+        "loss": 0.5794455123984296
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "acc": 0.9932065217391305,
+        "loss": 0.4767022976732772
+      },
+      "val": {
+        "acc": 0.9456521739130435,
+        "loss": 0.5738202722176261
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "acc": 0.9904891304347826,
+        "loss": 0.468673277484334
+      },
+      "val": {
+        "acc": 0.9415760869565217,
+        "loss": 0.5757236934226492
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "acc": 0.9979619565217391,
+        "loss": 0.45519614624588384
+      },
+      "val": {
+        "acc": 0.9442934782608695,
+        "loss": 0.5672120996143507
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "acc": 0.9955842391304348,
+        "loss": 0.4459319359258465
+      },
+      "val": {
+        "acc": 0.9483695652173914,
+        "loss": 0.5612535152746283
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "acc": 0.9989809782608695,
+        "loss": 0.4379848729333152
+      },
+      "val": {
+        "acc": 0.938858695652174,
+        "loss": 0.5699814467326455
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "acc": 0.9983016304347826,
+        "loss": 0.434189770532691
+      },
+      "val": {
+        "acc": 0.9483695652173914,
+        "loss": 0.5567893722782964
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "acc": 0.9989809782608695,
+        "loss": 0.4296881235812021
+      },
+      "val": {
+        "acc": 0.9470108695652174,
+        "loss": 0.5582638266293899
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "acc": 0.9989809782608695,
+        "loss": 0.42321310354315717
+      },
+      "val": {
+        "acc": 0.9497282608695652,
+        "loss": 0.5569590563359468
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "acc": 0.9989809782608695,
+        "loss": 0.420615265874759
+      },
+      "val": {
+        "acc": 0.9429347826086957,
+        "loss": 0.5609856247901917
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "acc": 0.9993206521739131,
+        "loss": 0.41408682906109356
+      },
+      "val": {
+        "acc": 0.9456521739130435,
+        "loss": 0.5529823199562405
+      }
+    }
+  ],
+  "label_names": [
+    "Abyssinian",
+    "American Bulldog",
+    "American Pit Bull Terrier",
+    "Basset Hound",
+    "Beagle",
+    "Bengal",
+    "Birman",
+    "Bombay",
+    "Boxer",
+    "British Shorthair",
+    "Chihuahua",
+    "Egyptian Mau",
+    "English Cocker Spaniel",
+    "English Setter",
+    "German Shorthaired",
+    "Great Pyrenees",
+    "Havanese",
+    "Japanese Chin",
+    "Keeshond",
+    "Leonberger",
+    "Maine Coon",
+    "Miniature Pinscher",
+    "Newfoundland",
+    "Persian",
+    "Pomeranian",
+    "Pug",
+    "Ragdoll",
+    "Russian Blue",
+    "Saint Bernard",
+    "Samoyed",
+    "Scottish Terrier",
+    "Shiba Inu",
+    "Siamese",
+    "Sphynx",
+    "Staffordshire Bull Terrier",
+    "Wheaten Terrier",
+    "Yorkshire Terrier"
+  ],
+  "test_metrics": null,
+  "timestamp": 1775050587.7181015,
+  "val_metrics": {
+    "acc": 0.9497282608695652,
+    "macro_recall": 0.9498577524893314
+  }
+}

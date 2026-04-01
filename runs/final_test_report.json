@@ -1,0 +1,31 @@
+{
+  "best_model": {
+    "backbone": "resnet50",
+    "checkpoint_path": "runs/auto_r50_full_raw_trimap_tta/best_model.pt",
+    "image_mode": "trimap_foreground",
+    "name": "auto_r50_full_raw_trimap_tta",
+    "test_acc": 0.92886345053148,
+    "tta": true,
+    "val_acc": 0.9605978260869565
+  },
+  "models": [
+    {
+      "backbone": "resnet50",
+      "checkpoint_path": "runs/auto_r50_full_raw_trimap_img320_ep12_lr3e5_tta/best_model.pt",
+      "image_mode": "trimap_foreground",
+      "name": "auto_r50_full_raw_trimap_img320_ep12_lr3e5_tta",
+      "test_acc": 0.9247751430907605,
+      "tta": true,
+      "val_acc": 0.9646739130434783
+    },
+    {
+      "backbone": "resnet50",
+      "checkpoint_path": "runs/auto_r50_full_raw_trimap_tta/best_model.pt",
+      "image_mode": "trimap_foreground",
+      "name": "auto_r50_full_raw_trimap_tta",
+      "test_acc": 0.92886345053148,
+      "tta": true,
+      "val_acc": 0.9605978260869565
+    }
+  ]
+}
